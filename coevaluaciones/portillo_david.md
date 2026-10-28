@@ -1,9 +1,9 @@
 # COEVALUACIÓN DE CMS Y SSG
 
-**Nombre del evaluador:** Dario Wallner
-**Persona evaluada:** David Portillo
-**Mi repositorio:** https://github.com/darioasir2/Repo_Coreccion_Dario
-**Repositorio que evalúo:** https://github.com/Portillopp/Repo_correcion_Portillo
+**Nombre del evaluador:** David Portillo
+**Persona evaluada:** Dario Wallner
+**Mi repositorio:** https://github.com/Portillopp/Repo_correcion_Portillo
+**Repositorio que evalúo:** https://github.com/darioasir2/Repo_Coreccion_Dario
 
 ## A. Puntuación de la investigación
 
