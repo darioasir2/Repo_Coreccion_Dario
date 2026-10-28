@@ -57,7 +57,9 @@ Comparación de tecnologías: se explican las características de Jekyll, Hugo y
 
 | Propuesta | Respuesta y decisión razonada | Corrección aplicada y archivo | Commit |
 |---|---|---|---|
-| P1 | [Aceptada / Aclaración / Alternativa acordada, con explicación] | [Qué he cambiado en cms.md y dónde] | [Enlace] |
-| P2 | [Aceptada / Aclaración / Alternativa acordada, con explicación] | [Qué he cambiado en ssg.md y dónde] | [Enlace] |
+| P1 | Acepto la propuesta porque el apartado de tipos de CMS contenía un error al escribir Canva en lugar de Canvas. También faltaban datos estadísticos sobre el uso de los CMS. | En cms.md, he corregido el nombre Canvas en el apartado de LMS y he añadido un top 5 de CMS con estadísticas de mercado, indicando la fuente y la fecha de consulta. | https://github.com/darioasir2/Repo_Coreccion_Dario/pull/1/changes/c1f845c17f647e990a83833a98f614b597c154f4) |
+| P2 | 
 
-**Qué he aprendido al corregir mi trabajo:** [Explicación breve]
+Acepto la propuesta porque la comparación entre Jekyll, Hugo y Astro no explicaba suficientemente las diferencias entre utilizar un SSG y crear páginas HTML manualmente. También era necesario precisar el funcionamiento de Astro y la publicación en GitHub Pages. | En ssg.md, he añadido una comparación directa entre los SSG y el HTML manual. También he revisado la tabla comparativa para explicar mejor el funcionamiento de Astro y las posibilidades de publicación en GitHub Pages. | https://github.com/darioasir2/Repo_Coreccion_Dario/pull/1/changes/16253f75df96c3fc0c531c4f3183255c1e78fb86 |
+
+**Qué he aprendido al corregir mi trabajo:** He aprendido a mejorar la precisión de la información y a respaldar los datos con fuentes fiables y fechas de consulta. También he comprendido mejor las diferencias entre crear páginas HTML manualmente y utilizar un generador de sitios estáticos, así como el funcionamiento de Astro y las opciones de publicación en GitHub Pages.
