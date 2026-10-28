@@ -1,66 +1,49 @@
-# Sistemas de Gestión de Contenidos (CMS)
+# Generador de Sitios Estáticos (SSG)
 
-## ¿Qué es un CMS?
+## ¿Qué es un SSG?
 
-Es un programa que permite gestionar una página web sin la necesidad de saber programar.
+Un **SSG (Static Site Generator)** es una herramienta que genera las páginas de un sitio web como archivos HTML estáticos antes de que los usuarios accedan a ellas. Para crear el sitio se pueden utilizar archivos de contenido, como Markdown, y plantillas.
 
-## ¿Cómo funciona un CMS?
+## Jekyll
 
-Los contenidos se administran mediante un panel de control. Desde ese panel se pueden añadir imágenes, vídeos, modificar y organizar el contenido. Una vez acabado el proceso se puede publicar para que aparezca en la web.
+**Jekyll** es un generador de sitios estáticos desarrollado con **Ruby**. Permite escribir contenido en Markdown y utilizar plantillas **Liquid**. Es especialmente utilizado para blogs y sitios de contenido.
 
-## Tipos de CMS
+## Hugo
 
-Los CMS se pueden clasificar según la utilidad que se les dé:
+**Hugo** es un generador de sitios estáticos desarrollado con **Go**. Permite utilizar Markdown para crear contenido y utiliza plantillas de Go. Destaca especialmente por su rapidez a la hora de generar los sitios web.
 
-1. Para contenido: Joomla, Blogger.
-2. Para comercio electrónico: Shopify, Magento.
-3. Para foros y comunidades: phpBB.
-4. Para sitios de información colaborativa: Wikis.
-5. Para aprendizaje, LMS: Canva, Moodle.
+## Astro
 
-Los CMS también se pueden clasificar según su arquitectura:
+**Astro** es un framework orientado a crear sitios web rápidos y basados en contenido. Permite utilizar Markdown y componentes, y puede generar el sitio como HTML estático durante el proceso de compilación. También permite utilizar componentes de tecnologías como React, Vue o Svelte cuando son necesarios.
 
-- **CMS monolíticos o acoplados:** donde se guarda la información y lo que ve el usuario van unidos en el mismo sistema.
-- **CMS desacoplado:** el contenido se crea en el panel central y se envía a otro sistema para mostrarlo en la web.
-- **CMS Headless:** no tiene interfaz del usuario, sino que muestra el contenido distribuyéndolo a través de una API hacia una web, una app móvil o un reloj.
+## Comparación entre Jekyll, Hugo y Astro
 
-![imagen CMS](/gestoresContenido/imagen_tipos_CMS.png)
+| Aspecto que Investigar | Jekyll | Hugo | Astro |
+| --- | --- | --- | --- |
+| Tecnología o lenguaje principal | Ruby/Liquid | Go | JS/TS |
+| Formato utilizado para el contenido | Markdown | Markdown | Markdown |
+| Necesidad de instalación | Si, Ruby | Si, Hugo | Si, Node.js |
+| Funcionamiento básico | Contenido en Markdown, plantillas con Liquid. Jekyll genera el HTML | Contenido en Markdown y Hugo genera el HTML | Solo carga JavaScript en los componentes interactivos necesarios. |
+| Usos habituales | Blogs, documentación | Blogs, webs | Blogs, portfolios |
+| Ventajas | Uso sencillo | Destaca por su velocidad. | Destaca por su velocidad y modernidad. |
+| Inconvenientes | Depende de Ruby, puede ser complicado de instalar. | Requiere mayor aprendizaje | Requiere conocer Node.js y conceptos de JavaScript. |
+| Posibilidad de publicarlo en GitHub Pages | Si | Si | Si | 
 
-## Ejemplos de CMS
+![imagen CMS](/gestoresContenido/imagen_ssg.png)
 
-Algunos ejemplos de CMS son:
+### Diferencias principales
 
-- *WordPress*
-- *Joomla*
-- *Shopify*
-- *Wix*
-- *Squarespace*
+- **Jekyll** es una opción sencilla para crear blogs y sitios de contenido utilizando Markdown y Liquid.
+- **Hugo** destaca por su velocidad de generación y es adecuado para sitios con muchas páginas.
+- **Astro** ofrece un sistema basado en componentes y permite añadir interactividad utilizando diferentes frameworks.
 
-## Comparación entre CMS dinámico y generador de sitios estáticos
+En conclusión, los tres permiten crear sitios estáticos, pero cada uno está orientado a diferentes necesidades. **Jekyll** destaca por su sencillez, **Hugo** por su velocidad y **Astro** por su flexibilidad y uso de componentes.
 
-| Aspecto | CMS Dinámico | Generador Estático |
-| --- | --- | --- |
-| Forma de crear contenidos | Se crean y se editan en el panel de control | A través de archivos y plantillas |
-| Base de datos | Para almacenar contenidos | No es necesaria |
-| Generación del HTML | Se crea cuando se solicita una página | Se genera durante el proceso de compilación |
-| Servidor necesario | Servidor capaz de ejecutar CMS y una base de datos | Servidor sencillo o una CDN |
-| Panel de administración | Se usa para gestionar contenidos | No lo suele incluir |
-| Conocimientos técnicos | Pocos conocimientos. El panel es sencillo | Conocimientos sobre archivos, plantillas, etc. |
-| Seguridad | Tiene una mayor superficie de ataque por el servidor y base de datos | Superficie de ataque menor |
-| Rendimiento | Rendimiento más lento | Rendimiento muy alto |
-| Actualización del contenido | Aparecen tras guardar o actualizar | Hay que regenerar y volver a generar la web |
-| Publicación | Se publica directamente al servidor | Se genera el sitio y después se despliegan los archivos resultantes en el servidor |
-| Ejemplos | WordPress, Joomla, Shopify | Hugo, Jekyll, Eleventy |
+## Video sobre SSG
 
-## Conclusión
-
-Los CMS son muy útiles para organizar cualquier tipo de web con bases de datos de forma sencilla, pero para poder sacarles un mayor provecho se necesitan servidores más potentes, una seguridad adecuada y conocimientos avanzados sobre ellos.
-
-## Vídeo sobre CMS
-
-[Ver vídeo](https://www.youtube.com/watch?v=sSh5AAmItN0)
+[Ver vídeo](https://www.youtube.com/watch?v=osWfEtbP_sk)
 
 ---
 ---
 
-[Ir al documento sobre SSG](ssg.md)
+[Ir al documento sobre CMS](cms.md)
